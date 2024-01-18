@@ -23,3 +23,8 @@ git clone git@github.com:iqbalfn/nwjs-whatsapp.git .
 # Run nwjs on current directory
 nw .
 ```
+
+## TODO
+
+1. Show badge of total new message on task manager
+2. Use custom native notification for new message on app minimized
