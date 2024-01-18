@@ -76,10 +76,19 @@ Win = {
 }
 
 Wa = {
+    addListener() {
+        nw.App.on('open', e => {
+            if (Win.obj) {
+                Win.obj.show()
+            }
+        })
+    },
     init() {
         Win.init()
         Tray.init()
         Message.init()
+
+        Wa.addListener()
     }
 }
 
