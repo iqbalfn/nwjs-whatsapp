@@ -1,0 +1,31 @@
+{
+  "name": "nwjs-whatsapp",
+  "version": "1.0.0",
+  "description": "Unofficial whatsapp desktop client with nwjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iqbalfn/nwjs-whatsapp.git"
+  },
+  "keywords": [
+    "nwjs",
+    "whatsapp",
+    "desktop"
+  ],
+  "author": "Iqbal Fauzi <iqbalfawz@gmail.com> (https://iqbalfn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqbalfn/nwjs-whatsapp/issues"
+  },
+  "homepage": "https://github.com/iqbalfn/nwjs-whatsapp#readme",
+  "window": {
+    "id": "com.iqbalfn.nwjs-whatsapp",
+    "title": "Whatsapp",
+    "icon": "icons/main.png",
+    "width": 1024,
+    "height": 768
+  }
+}
